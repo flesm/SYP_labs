@@ -2,6 +2,7 @@ import pickle
 import os
 
 
+# функцыя для знаходжання мінімальнага станоўчага ліку
 def min_positive(tpl):
     min_value = None
     for x in tpl:
@@ -11,6 +12,7 @@ def min_positive(tpl):
     return min_value
 
 
+# зчытвваем спіс усіх картэжаў з бінарнага файла
 with open('tuple.bin', 'rb') as f:
     tuples = []
     while True:
@@ -20,6 +22,7 @@ with open('tuple.bin', 'rb') as f:
         except EOFError:
             break
 
+# ачыстка файла перад запісам
 os.remove('result.txt')
 
 for tup in tuples:

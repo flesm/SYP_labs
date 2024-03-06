@@ -1,4 +1,5 @@
 # https://baskino.org/
+# https://kinogo.pro/
 
 import requests
 from bs4 import BeautifulSoup
@@ -80,7 +81,7 @@ def plot_heading_word_length_frequency(html_content):
     plt.show()
 
 
-url = input("Введите URL страницы: ")
+url = input("Увядзіце URL старонкі: ")
 
 html_content = get_page_content(url)
 links, words = count_links_and_words(html_content)

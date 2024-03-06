@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Parallax</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -21,9 +23,64 @@
                         <h1 class="content__title">Прывітанне!</h1>
                         <h2 class="content__subtitle">Свет!</h2>
                     </div>
-                    <div class="content__paragraph">
-                        <p>Природа дает человеку все необходимое для его существования. Но, часто мы не ценим эти дары, не задумываясь, срываем цветы и ветки на деревьях, не давая ничего взамен. Нам кажется, что это мелочь, ведь вырастут новые. Обернувшись по сторонам, сложно не заметить - как же все таки прекрасна природа. Нам нужно лишь научиться ценить её!</p>
-                        <p>Природа радует нас своими необыкновенными и такими разными сезонами. Весной, словно делая первые шаги, природа обновляется, появляются росточки на земле, за ними - первые листья на деревьях. К лету, в лесах и садах настоящее буйство красок, пышно расцвели цветы и кустарники. Осенней порой кроны деревьев багряным и золотым фейерверком украшают аллеи и парки. Золотая осень укрывает все вокруг желтым ковром из опадающей листвы. Приход зимы сменяет дожди на снегопады. Озера сковывает льдом, деревья укутывает в белые шубки. В свои владения вступает Королева Зима и до весны природа словно засыпает.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row full-height justify-content-center">
+                <div class="col-12 text-center align-self-center py-5">
+                    <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                        <h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+                        <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+                        <label for="reg-log"></label>
+                        <div class="card-3d-wrap mx-auto">
+                            <div class="card-3d-wrapper">
+                                <div class="card-front">
+                                    <div class="center-wrap">
+                                        <div class="section text-center">
+                                            <h4 class="mb-4 pb-3">Log In</h4>
+                                            <div class="form-group">
+                                                <input type="email" class="form-style" placeholder="Email" name="login-email">
+                                                <i class="input-icon uil uil-at"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="password" class="form-style" placeholder="Password" name="login-password">
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                            </div>
+                                            <a href="#" id="loginButton" class="btn mt-4">Login</a>
+                                            <p id="errorMessage" class="error-message mb-0 mt-4 text-center"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="center-wrap">
+                                        <div class="section text-center">
+                                            <h4 class="mb-3 pb-3">Sign Up</h4>
+                                            <div class="form-group">
+                                                <input type="text" class="form-style" placeholder="Full Name" name='register-fullname'>
+                                                <i class="input-icon uil uil-user"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="tel" class="form-style" placeholder="Phone Number" name='register-phone'>
+                                                <i class="input-icon uil uil-phone"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="email" class="form-style" placeholder="Email" name='register-email'>
+                                                <i class="input-icon uil uil-at"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="password" class="form-style" placeholder="Password" name='register-password'>
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                            </div>
+                                            <a href="#" id="registerButton" class="btn mt-4" type="submit">Register</a>
+                                            <p id="errorMessage2" class="error-message mb-0 mt-4 text-center"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
